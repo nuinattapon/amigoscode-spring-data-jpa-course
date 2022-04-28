@@ -29,15 +29,13 @@ public class Course {
 
     @Column(
             name = "name",
-            nullable = false,
-            columnDefinition = "TEXT"
+            nullable = false
     )
     private String name;
 
     @Column(
             name = "department",
-            nullable = false,
-            columnDefinition = "TEXT"
+            nullable = false
     )
     private String department;
 

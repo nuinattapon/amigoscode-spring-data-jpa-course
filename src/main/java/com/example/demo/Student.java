@@ -33,29 +33,25 @@ public class Student {
 
     @Column(
             name = "first_name",
-            nullable = false,
-            columnDefinition = "TEXT"
+            nullable = false
     )
     private String firstName;
 
     @Column(
             name = "last_name",
-            nullable = false,
-            columnDefinition = "TEXT"
+            nullable = false
     )
     private String lastName;
 
     @Column(
             name = "email",
-            nullable = false,
-            columnDefinition = "TEXT"
+            nullable = false
     )
     private String email;
 
     @Column(
             name = "age",
             nullable = false
-
     )
     private Integer age;
 

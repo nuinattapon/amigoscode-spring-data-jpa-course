@@ -28,8 +28,7 @@ public class Book {
 
     @Column(
             name = "created_at",
-            nullable = false,
-            columnDefinition = "TIMESTAMP WITHOUT TIME ZONE"
+            nullable = false
     )
     private LocalDateTime createdAt;
 
